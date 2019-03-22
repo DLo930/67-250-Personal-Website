@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="author" content="Dennis Lo">
+		<meta name="keywords" content="Carnegie Mellon University, Information Systems">
+		<meta name="description" content="Dennis Lo's first 67-250 lab">
+		<link rel="stylesheet" type="text/css" href="css/styles.css" />
+		<link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css" />
+		<link rel="stylesheet" media="screen and (max-width: 480px)" type="text/css" href="css/stylesmobile.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/scripts.js"></script>
+		<script>
+			$(document).ready(() => {
+				$(".collapsible").collapsible();
+			});
+		</script>
+		<script>
+			$(document).ready(() => {
+				$(".tabs").tabs();
+			});
+		</script>
+
+		<title>Dennis Lo</title>
+	</head>
+	<body>
+		<nav>
+			<div class="nav-wrapper">
+				<a href="index.html" class="brand-logo">Dennis Lo</a>
+				<ul id="nav-mobile" class="right hide-on-mod-and-down">
+					<li><a href="index.html" class="">About</a></li>
+					<li class="active"><a href="projects.html">Projects</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</nav>
+
+		<div class="container">
+			<ul class="collapsible">
+				<li>
+					<div class="collapsible-header">Case Analysis Project</div>
+					<div class="collapsible-body"><span>The case analysis project evaluated
+					a variety of enterprise layer concepts at AliBaba.</span></div>
+				</li>
+				<li>
+					<div class="collapsible-header">Web Development Project</div>
+					<div class="collapsible-body"><span>The web development project utilized
+					several front-end web development techniques using HTML, CSS, and JS.</span>
+					</div>
+				</li>
+				<li>
+					<div class="collapsible-header">Database Project</div>
+					<div class="collapsible-body"><span>The database project included an
+					entity relationship diagram and several data creation and manipulation
+					techniques in MySQL.</span></div>
+				</li>
+			</ul>
+
+			<br /><br />
+
+			<div class="row">
+				<div class="col s12">
+					<ul class="tabs">
+						<li class="tab col s3"><a class="active" href="#tab1">Case Analysis Project</a></li>
+						<li class="tab col s3"><a href="#tab2">Web Development Project</a></li>
+						<li class="tab col s3"><a href="#tab3">Database Project</a></li>
+					</ul>
+				</div>
+				<div id="tab1" class="col s12">
+					<p>
+						Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus.
+  					Curabitur nec arc Donec sollicitudin mi sit amet mauris. Nam elementum
+  					quam ullamcorper ante. Etiam aliqu massa et lorem. Mauris dapibus
+  					lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus s magna quis
+  					ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae
+  					ipsum. Aliqu nulla. Duis aliquam molestie erat.
+					</p>
+				</div>
+				<div id="tab2" class="col s12">
+					<p>
+						Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida
+						ante, ut pharet massa metus id nunc. Duis scelerisque molestie turpis.
+						Sed fringilla, massa eget luc malesuada, metus eros molestie lectus,
+						ut tempus eros massa ut dolor. Aenean aliquet fringil sem. Curabitur
+						ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla.
+						Aliquam er volutpat. Pellentesque convallis.
+					</p>
+				</div>
+				<div id="tab3" class="col s12">
+					<p>
+						Marusi eleifend est et turpis. Duis id erat. Suspendisse potenti.
+  					Aliquam vulpatate, pe vel vehicula accumsan, mi neque rutrum erat, eu
+  					congue orci lorem eget lorem. Vestimulum r ante. Class aptent tacti
+  					sociosqu ad litora torquent per conubia nostra, per incept
+  					himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque.
+					</p>
+				</div>
+			</div>
+			<br /><br />
+
+
+			<footer class="page-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col l12 s12">
+							<a href="mailto:dlo2@andrew.cmu.edu" target="_blank"><img src="images/email.png"></a>
+			  			<a href="https://www.linkedin.com/in/dennis-l-b6617a127/" target="_blank"><img src="images/linkedin.png"></a>
+			  			<a href="https://www.facebook.com/dennis.lo.9400" target="_blank"><img src="images/facebook.png"></a>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="container">
+						&copy; Dennis Lo<br />
+						5032 Forbes Avenue<br />
+						SMC 6978<br />
+						Pittsburgh, PA 15289<br />
+						646-431-0473 (c)<br />
+					</div>
+				</div>
+			</footer>
+  	</div>
+	</body>
+</html
