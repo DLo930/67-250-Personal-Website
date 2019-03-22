@@ -19,13 +19,17 @@
 		<script type="text/javascript" src="js/exporting.js"></script>
 		<script>
 			$(function() {
-				$("#container-graph").highcharts({
+				var chart = new Highcharts.Chart({
 					title: {
 							text: 'Weekly Workload by Month',
 					},
 
 					subtitle: {
 							text: "2015-2018",
+					},
+
+					chart: {
+						renderTo: 'container-graph'
 					},
 
 					yAxis: {
